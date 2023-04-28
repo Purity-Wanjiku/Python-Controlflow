@@ -23,10 +23,20 @@ def prime_numbers(integer):
 #Write a function that takes a list of integers as input 
 # and prints the sum of all the even numbers in the list.
 
+def even_integers(*ints):
+   ints=0
+   for i in ints:
+      if i %2==0:
+         ints+=i
+         print(ints)
+
 #Write a function that takes any two integers as input,
 # and prints the sum of all the numbers between the two integers (inclusive) 
 # that are divisible by 3.                 
-            
+def two_intergers():
+     start=0
+     for i in range(6,10):
+      if i %3==0:
         
        
        
